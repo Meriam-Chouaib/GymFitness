@@ -1,0 +1,220 @@
+[18-Aug-2021 10:15:24 UTC] PHP Parse error:  syntax error, unexpected '( array)' (array) (T_ARRAY_CAST) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 4
+[18-Aug-2021 11:30:46 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 17
+[18-Aug-2021 11:51:57 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 20
+[19-Aug-2021 13:45:15 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 55
+[19-Aug-2021 13:47:16 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 57
+[20-Aug-2021 09:15:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 8
+[20-Aug-2021 12:19:17 UTC] PHP Parse error:  syntax error, unexpected '$start_time' (T_VARIABLE), expecting ',' or ';' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\inc\queries.php on line 27
+[20-Aug-2021 12:19:19 UTC] PHP Parse error:  syntax error, unexpected '$start_time' (T_VARIABLE), expecting ',' or ';' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\inc\queries.php on line 27
+[20-Aug-2021 21:02:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php:100
+Stack trace:
+#0 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php(87): register_widget('Foo_Widget')
+#2 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(286): register_foo_widget('')
+#3 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\widgets.php(1715): do_action('widgets_init')
+#6 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#7 C:\Users\Asus\Local Sites\gymfitness\app\publ in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php on line 100
+[20-Aug-2021 21:02:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php:100
+Stack trace:
+#0 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php(87): register_widget('Foo_Widget')
+#2 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(286): register_foo_widget('')
+#3 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\widgets.php(1715): do_action('widgets_init')
+#6 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#7 C:\Users\Asus\Local Sites\gymfitness\app\publ in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php on line 100
+[20-Aug-2021 21:04:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Foo_Widget' not found in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php:100
+Stack trace:
+#0 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php(87): register_widget('Foo_Widget')
+#2 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(286): register_foo_widget('')
+#3 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\widgets.php(1715): do_action('widgets_init')
+#6 C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#7 C:\Users\Asus\Local Sites\gymfitness\app\publ in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-widget-factory.php on line 100
+[20-Aug-2021 21:56:21 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php on line 47
+[20-Aug-2021 21:57:21 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php on line 49
+[23-Aug-2021 13:35:00 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\plugins\gymfitness_widgets\gymfitness_widgets.php on line 93
+[23-Aug-2021 14:24:04 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\gallery.php on line 26
+[23-Aug-2021 14:26:35 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\gallery.php on line 30
+[23-Aug-2021 14:26:37 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\gallery.php on line 30
+[23-Aug-2021 14:27:43 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\gallery.php on line 30
+[23-Aug-2021 14:27:44 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\gallery.php on line 30
+[23-Aug-2021 15:33:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 55
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 10:37:35 UTC] PHP Warning:  A non-numeric value encountered in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\home.php on line 15
+[24-Aug-2021 10:37:35 UTC] PHP Stack trace:
+[24-Aug-2021 10:37:35 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[24-Aug-2021 10:37:35 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[24-Aug-2021 10:37:35 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[24-Aug-2021 10:37:35 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[24-Aug-2021 11:42:40 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\author.php on line 7
+[25-Aug-2021 11:21:56 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 94
+[25-Aug-2021 11:23:56 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 95
+[25-Aug-2021 11:25:56 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 97
+[25-Aug-2021 11:26:17 UTC] PHP Parse error:  syntax error, unexpected ',' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 98
+[25-Aug-2021 11:27:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php:95) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-admin\includes\misc.php on line 1221
+[25-Aug-2021 11:27:55 UTC] PHP Stack trace:
+[25-Aug-2021 11:27:55 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-admin\admin-ajax.php:0
+[25-Aug-2021 11:27:55 UTC] PHP   2. do_action() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-admin\admin-ajax.php:45
+[25-Aug-2021 11:27:55 UTC] PHP   3. WP_Hook->do_action() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php:465
+[25-Aug-2021 11:27:55 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:310
+[25-Aug-2021 11:27:55 UTC] PHP   5. wp_admin_headers() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:286
+[25-Aug-2021 11:27:55 UTC] PHP   6. header() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-admin\includes\misc.php:1221
+[25-Aug-2021 11:30:49 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 103
+[25-Aug-2021 13:54:01 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 12
+[25-Aug-2021 13:55:00 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 12
+[25-Aug-2021 13:55:46 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 12
+[27-Aug-2021 10:31:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:31:16 UTC] PHP Stack trace:
+[27-Aug-2021 10:31:16 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:31:16 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:31:16 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:31:16 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:31:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:31:16 UTC] PHP Stack trace:
+[27-Aug-2021 10:31:16 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:31:16 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:31:16 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:31:16 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:31:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:31:16 UTC] PHP Stack trace:
+[27-Aug-2021 10:31:16 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:31:16 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:31:17 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:31:17 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:31:17 UTC] PHP Stack trace:
+[27-Aug-2021 10:31:17 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:31:17 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:31:17 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:31:17 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:32:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:32:17 UTC] PHP Stack trace:
+[27-Aug-2021 10:32:17 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:32:17 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:32:17 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:32:17 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:32:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:32:17 UTC] PHP Stack trace:
+[27-Aug-2021 10:32:17 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:32:17 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:32:17 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:32:17 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:32:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:32:17 UTC] PHP Stack trace:
+[27-Aug-2021 10:32:17 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:32:17 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:32:17 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:32:17 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:32:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:32:17 UTC] PHP Stack trace:
+[27-Aug-2021 10:32:17 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:32:17 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:32:17 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:32:17 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:33:24 UTC] PHP Stack trace:
+[27-Aug-2021 10:33:24 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:33:24 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:33:24 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:33:24 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:33:24 UTC] PHP Stack trace:
+[27-Aug-2021 10:33:24 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:33:24 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:33:24 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:33:24 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:33:24 UTC] PHP Stack trace:
+[27-Aug-2021 10:33:24 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:33:24 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:33:24 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:33:24 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 10:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\front-page.php on line 88
+[27-Aug-2021 10:33:24 UTC] PHP Stack trace:
+[27-Aug-2021 10:33:24 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:0
+[27-Aug-2021 10:33:24 UTC] PHP   2. require() C:\Users\Asus\Local Sites\gymfitness\app\public\index.php:17
+[27-Aug-2021 10:33:24 UTC] PHP   3. require_once() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-blog-header.php:19
+[27-Aug-2021 10:33:24 UTC] PHP   4. include() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\template-loader.php:78
+[27-Aug-2021 11:44:50 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 46
+[27-Aug-2021 11:46:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-content\themes\gymfitnesswptheme\functions.php on line 61
+[30-Aug-2021 09:00:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\update.php on line 394
+[30-Aug-2021 09:00:32 UTC] PHP Stack trace:
+[30-Aug-2021 09:00:32 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-cron.php:0
+[30-Aug-2021 09:00:32 UTC] PHP   2. do_action_ref_array() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-cron.php:133
+[30-Aug-2021 09:00:32 UTC] PHP   3. WP_Hook->do_action() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php:531
+[30-Aug-2021 09:00:32 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:310
+[30-Aug-2021 09:00:32 UTC] PHP   5. wp_update_plugins() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:286
+[30-Aug-2021 09:00:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\update.php on line 404
+[30-Aug-2021 09:00:32 UTC] PHP Stack trace:
+[30-Aug-2021 09:00:32 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-cron.php:0
+[30-Aug-2021 09:00:32 UTC] PHP   2. do_action_ref_array() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-cron.php:133
+[30-Aug-2021 09:00:32 UTC] PHP   3. WP_Hook->do_action() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php:531
+[30-Aug-2021 09:00:32 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:310
+[30-Aug-2021 09:00:32 UTC] PHP   5. wp_update_plugins() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:286
+[30-Aug-2021 09:00:43 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\update.php on line 569
+[30-Aug-2021 09:00:43 UTC] PHP Stack trace:
+[30-Aug-2021 09:00:43 UTC] PHP   1. {main}() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-cron.php:0
+[30-Aug-2021 09:00:43 UTC] PHP   2. do_action_ref_array() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-cron.php:133
+[30-Aug-2021 09:00:43 UTC] PHP   3. WP_Hook->do_action() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\plugin.php:531
+[30-Aug-2021 09:00:43 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:310
+[30-Aug-2021 09:00:43 UTC] PHP   5. wp_update_themes() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\class-wp-hook.php:286
+[30-Aug-2021 09:00:43 UTC] PHP   6. trigger_error() C:\Users\Asus\Local Sites\gymfitness\app\public\wp-includes\update.php:569
